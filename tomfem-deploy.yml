@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: 577456190159.dkr.ecr.us-east-1.amazonaws.com/tomfem:1.0
+        image: 577456190159.dkr.ecr.us-west-1.amazonaws.com/tomfem:1.2
         imagePullPolicy: Always
         resources:
           requests:
